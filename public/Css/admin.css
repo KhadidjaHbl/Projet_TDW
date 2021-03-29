@@ -1,0 +1,267 @@
+body .auth {
+  background-color: #507ec4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 160vh;
+	flex-direction: column;
+}
+
+
+body {
+  background-image: url("http://localhost/HABELHAMES_KHADIDJA_SIL2/public/images/back.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 160vh;
+	flex-direction: column;
+}
+
+.cat{
+  background-image: url("./public/images/back.png");
+}
+
+  
+  h2 {
+      text-align: center;
+     color:#222831 ;
+      margin-bottom: 40px;
+  }
+  
+  input ,textarea {
+      display: block;
+      border: 2px solid #222831;
+      width: 95%;
+      padding: 10px;
+      margin: 10px auto;
+      border-radius: 5px;
+  }
+  li{
+    list-style: none;
+  }
+  label {
+      color: #222831 ;
+      font-size: 18px;
+      padding: 10px;
+  }
+ 
+  button{
+    margin-right: 10px;
+    float: right;
+    font-size: 17px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+  }
+  
+  button:hover{
+    background-color: #507ec4;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .logo img {
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      display: block;
+  }
+
+button:hover{background-color: #507ec4;}
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+.logoimg{
+  margin-left: 5%;
+  width: 12%;
+  height: auto;
+}
+.liens{
+  position: absolute;
+  top:8%;
+  right:8%;
+}
+
+.fa {
+  margin-right: 18px;
+  padding: 14px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.login{
+  margin-left: 50%;
+  margin-top: 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h1{
+  text-align: center;
+  color: rgb(79, 136, 221);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #e00505 ;
+  color: white;
+}
+
+.fa-instagram {
+  background: #75a4c5;
+  color: white;
+}
+.card{
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+  margin-top: 6%;
+}
+
+.grid-container {
+  display: grid;
+}
+.image img{
+width: 100%;
+height: 160px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+.btn-group{
+  width: 480px;
+  height: 500px;
+  text-align: center;
+  padding: 50px;
+  margin-left: 70px;
+  background: #fff;
+  border-radius: 15px
+
+}
+.btn-group button {
+  background-color: white; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  cursor: pointer; /* Pointer/hand icon */
+  display: block; /* Make the buttons appear below each other */
+  margin-right:130px; 
+   width: 230px; /* Set a width if needed */
+  height:60px;
+  margin-top: 7%;
+}
+
+.btn-group button:hover {
+  background-color: #f7d396;
+}
+#categ{
+  background-color: rgb(252, 241, 238); /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  cursor: pointer; /* Pointer/hand icon */
+  display: block; /* Make the buttons appear below each other */
+  margin-right:150px; 
+   width: 180px; /* Set a width if needed */
+  height:40px;
+  margin-top: 10%;
+}
+#categ:hover {
+  background-color: #e06d0e;
+}
+.gest{
+  margin-top:50px; 
+  margin-bottom:45px; 
+
+color:rgb(15, 15, 15);
+}
+
+form {
+  width: 500px;
+  padding: 80px;
+  background: #fff;
+  border-radius: 15px;
+}
